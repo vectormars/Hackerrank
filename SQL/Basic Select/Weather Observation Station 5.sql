@@ -1,7 +1,3 @@
-select * from (
-    select city, length(city) from station order by length(city) asc, city asc limit 1
-) temp1
-union all
-select * from (
-    select city, length(city) from station order by length(city) desc, city asc limit 1
-) temp2
+(select City,length(City) from STATION  order by length(City) asc, city asc limit 1)
+UNION
+(select City,length(City) from STATION  order by length(City) desc, city asc limit 1)
