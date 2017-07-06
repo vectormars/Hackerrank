@@ -122,6 +122,10 @@ Omuta
 
 Tokuyama 
 
+**Input Format**
 
+The CITY table is described as follows:
+
+![alt text](https://github.com/vectormars/Hackerrank/blob/master/SQL/Basic%20Select/Station.jpg)
 
 
