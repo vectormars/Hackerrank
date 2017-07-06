@@ -102,7 +102,25 @@ Output:
 
 1739 Tokuyama JPN Yamaguchi 107078 
 
+### Example 6: Japanese Cities' Names
 
+Query the names of all the Japanese cities in the CITY table. The COUNTRYCODE for Japan is JPN.
+
+#### select name from City
+
+#### where Countrycode = "JPN"
+
+Output:
+
+Neyagawa 
+
+Ageo 
+
+Sayama 
+
+Omuta 
+
+Tokuyama 
 
 
 
