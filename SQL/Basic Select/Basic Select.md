@@ -1,4 +1,4 @@
-**Input Format**
+## Input Format
 
 The CITY table is described as follows:
 
@@ -122,7 +122,7 @@ Omuta
 
 Tokuyama 
 
-**Input Format**
+## Input Format
 
 The CITY table is described as follows:
 
