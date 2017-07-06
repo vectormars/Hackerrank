@@ -149,6 +149,8 @@ Let N be the number of CITY entries in STATION, and let N' be the number of dist
 
 #### select count(city)-count(distinct city) from Station
 
+Output: 13
+
 ### Example 9: Weather Observation Station 5
 
 Query the two cities in STATION with the shortest and longest CITY names, as well as their respective lengths (i.e.: number of characters in the name). If there is more than one smallest or largest city, choose the one that comes first when ordered alphabetically.
@@ -159,4 +161,8 @@ Query the two cities in STATION with the shortest and longest CITY names, as wel
 
 #### (select City,length(City) from STATION  order by length(City) desc, city asc limit 1)
 
+Output:
 
+Amo 3 
+
+Marine On Saint Croix 21 
