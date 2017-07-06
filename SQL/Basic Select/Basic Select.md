@@ -169,17 +169,18 @@ Marine On Saint Croix 21
 
 ### Example 10: Weather Observation Station 6
 
-Query the list of CITY names starting with vowels (i.e., a, e, i, o, or u) from STATION. Your result cannot contain duplicates.
+Query the list of CITY names **starting with** vowels (i.e., a, e, i, o, or u) from STATION. Your result cannot contain duplicates.
 
-#### select city from station
+#### select disctinct city from station
 
 #### where city REGEXP '^[a|e|i|o|u].*$'
 
+### Example 11: Weather Observation Station 7
 
+Query the list of CITY names ending with vowels (a, e, i, o, u) from STATION. Your result cannot contain duplicates.
 
-
-
-
+#### select distinct city from station
+#### where city REGEXP '^.*[a|e|i|o|u]$'
 
 
 
