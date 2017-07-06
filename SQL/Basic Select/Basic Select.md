@@ -69,3 +69,23 @@ Output:
 4061 Fall River USA Massachusetts 90555 
 
 
+### Example 4: Select By ID
+
+Query all columns for a city in CITY with the ID 1661.
+
+#### select * from City
+
+#### where ID = 1661
+
+Output:
+
+1661 Sayama JPN Saitama 162472 
+
+
+
+
+
+
+
+
+
