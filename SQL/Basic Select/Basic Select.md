@@ -147,12 +147,16 @@ Query a list of CITY names from STATION with **even** ID numbers only. You may p
 
 Let N be the number of CITY entries in STATION, and let N' be the number of distinct CITY names in STATION; query the value of N-N' from STATION. In other words, find the difference between the total number of CITY entries in the table and the number of distinct CITY entries in the table.
 
+#### select count(city)-count(distinct city) from Station
 
+### Example 9: Weather Observation Station 5
 
+Query the two cities in STATION with the shortest and longest CITY names, as well as their respective lengths (i.e.: number of characters in the name). If there is more than one smallest or largest city, choose the one that comes first when ordered alphabetically.
 
+#### (select City,length(City) from STATION  order by length(City) asc, city asc limit 1)
 
+#### UNION
 
-
-
+#### (select City,length(City) from STATION  order by length(City) desc, city asc limit 1)
 
 
