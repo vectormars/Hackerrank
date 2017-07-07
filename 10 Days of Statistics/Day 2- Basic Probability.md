@@ -10,6 +10,6 @@ In a single toss of  fair (evenly-weighted) six-sided dice, find the probability
 | 5 | 6 | 7 | 8 | 9  | 10 | 11 |
 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
 
-Total = 36
-Greater than 9 = 6
+Total = 36     
+Greater than 9 = 6     
 Pr(at most 9)=30/36 = 5/6
