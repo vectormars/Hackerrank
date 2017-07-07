@@ -124,7 +124,7 @@ Tokuyama
 
 ## Input Format
 
-The CITY table is described as follows:
+The Station table is described as follows:
 
 ![alt text](https://github.com/vectormars/Hackerrank/blob/master/SQL/Basic%20Select/Station.jpg)
 
@@ -218,13 +218,31 @@ Query the list of CITY names from STATION that do not start with vowels **and** 
 
 ## Input Format
 
-The CITY table is described as follows:
+The Student table is described as follows:
 
 ![alt text](https://github.com/vectormars/Hackerrank/blob/master/SQL/Basic%20Select/student-1.png)
 
 ### Example 17: Higher Than 75 Marks
 
 Query the Name of any student in STUDENTS who scored higher than 75 Marks. Order your output by the last three characters of each name. If two or more students both have names ending in the same last three characters (i.e.: Bobby, Robby, etc.), secondary sort them by ascending ID
+
+#### select name from STUDENTS 
+#### where Marks>75
+#### order by SUBSTRING(Name,-3),ID
+
+## Input Format
+
+The Employee table is described as follows:
+
+![alt text](https://github.com/vectormars/Hackerrank/blob/master/SQL/Basic%20Select/Employee.png)
+
+### Example 18: Employee Names
+
+Write a query that prints a list of employee names (i.e.: the name attribute) from the Employee table in alphabetical order.
+
+
+
+
 
 
 
