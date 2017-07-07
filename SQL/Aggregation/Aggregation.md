@@ -46,3 +46,24 @@ Samantha was tasked with calculating the average monthly salaries for all employ
 Write a query calculating the amount of error, and round it up to the next integer.
 
 #### Select ceil(avg(salary)-avg(replace(salary,0,''))) from EMPLOYEES 
+
+
+
+## Input Format
+
+The Employee table is described as follows:
+
+![alt text](https://github.com/vectormars/Hackerrank/blob/master/SQL/Basic%20Select/Employee.png)
+
+
+
+
+
+
+
+
+## Input Format
+
+The Station table is described as follows:
+
+![alt text](https://github.com/vectormars/Hackerrank/blob/master/SQL/Basic%20Select/Station.jpg)
