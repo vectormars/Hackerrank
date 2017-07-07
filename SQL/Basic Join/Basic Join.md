@@ -12,3 +12,8 @@ The CITY and COUNTRY tables are described as follows:
 Given the CITY and COUNTRY tables, query the sum of the populations of all cities where the CONTINENT is 'Asia'.
 
 Note: CITY.CountryCode and COUNTRY.Code are matching key columns.
+
+#### Select sum(CITY.Population) from CITY 
+#### Join COUNTRY
+#### on CITY.CountryCode = COUNTRY.Code
+#### where COUNTRY.CONTINENT = 'Asia'
