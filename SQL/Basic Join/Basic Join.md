@@ -17,3 +17,20 @@ Note: CITY.CountryCode and COUNTRY.Code are matching key columns.
 #### Join COUNTRY
 #### on CITY.CountryCode = COUNTRY.Code
 #### where COUNTRY.CONTINENT = 'Asia'
+
+### Example 2. Asian Population
+
+Given the CITY and COUNTRY tables, query the names of all cities where the CONTINENT is 'Africa'.
+
+#### Select City.Name from CITY 
+#### Join COUNTRY
+#### on CITY.CountryCode = COUNTRY.Code
+#### where COUNTRY.CONTINENT = 'Africa'
+
+### Example 3. Average Population of Each Continent 
+Given the CITY and COUNTRY tables, query the names of all the continents (COUNTRY.Continent) and their respective average city populations (CITY.Population) rounded down to the nearest integer.
+
+#### Select COUNTRY.Continent,floor(Avg(CITY.Population)) from CITY
+#### Join COUNTRY
+#### on CITY.CountryCode = COUNTRY.Code
+#### group by CONTINENT
