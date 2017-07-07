@@ -32,3 +32,9 @@ Query the sum of the populations for all Japanese cities in CITY. The COUNTRYCOD
 ### Example 6: Population Density Difference
 Query the difference between the maximum and minimum populations in CITY.
 #### Select max(population)-min(population) from City
+
+## Input Format
+
+The Employee table is described as follows:
+
+![alt text](https://github.com/vectormars/Hackerrank/blob/master/SQL/Basic%20Select/Employee.png)
