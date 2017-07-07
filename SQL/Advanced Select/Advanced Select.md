@@ -75,3 +75,11 @@ Generate the following two result sets:
 There are a total of [occupation_count] [occupation]s.
 
 where [occupation_count] is the number of occurrences of an occupation in OCCUPATIONS and [occupation] is the lowercase occupation name. If more than one Occupation has the same [occupation_count], they should be ordered alphabetically.
+
+#### Select concat(Name,'(',left(Occupation,1),')') as New From Occupations order by New;
+#### Select concat('There are a total of ',count(Occupation),' ',lower(Occupation),'s.') from Occupations 
+#### Group by Occupation
+#### Order by count(Occupation),lower(Occupation);
+
+
+
