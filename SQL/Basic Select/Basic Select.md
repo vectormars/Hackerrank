@@ -207,7 +207,7 @@ Query the list of CITY names from STATION that do not end with vowels. Your resu
 Query the list of CITY names from STATION that either do not start with vowels **or** do not end with vowels. Your result cannot contain duplicates.
 
 #### Select distinct city from station
-#### where city not REGEXP '^[a|e|i|o|u].*$' or city not REGEXP '^.*[a|e|i|o|u]$'
+#### where city not REGEXP '^[a|e|i|o|u].\*$' or city not REGEXP '^.\*[a|e|i|o|u]$'
 
 ### Example 16: Weather Observation Station 12
 
