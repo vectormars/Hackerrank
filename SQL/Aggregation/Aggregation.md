@@ -15,3 +15,14 @@ Query a count of the number of cities in CITY having a Population larger than 10
 ### Example 2: Revising Aggregations - The Sum Function
 
 Query the total population of all cities in CITY where District is California.
+
+#### Select sum(population) from City
+#### where District = 'California'
+
+### Example 3: Revising Aggregations - Averages
+Query the average population of all cities in CITY where District is California.
+#### Select avg(population) from City
+#### where District = 'California'
+
+### Example 3: Revising Aggregations - Averages
+Query the average population for all cities in CITY, rounded down to the nearest integer.
