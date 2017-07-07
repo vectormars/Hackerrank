@@ -52,3 +52,15 @@ Write a query to help Eve.
 #### Join Grades
 #### On Students.Marks >= Grades.Min_Mark and Students.Marks <= Grades.Max_Mark 
 #### Order by Grades.Grade desc, Students.Name, Students.Marks asc
+
+## Input Format
+
+The Hackers, Difficulty, Challenges and Submissions tables are described as follows:
+![alt text](https://github.com/vectormars/Hackerrank/blob/master/SQL/Basic%20Join/Hackers.png)
+![alt text](https://github.com/vectormars/Hackerrank/blob/master/SQL/Basic%20Join/Difficulty.png)
+![alt text](https://github.com/vectormars/Hackerrank/blob/master/SQL/Basic%20Join/Challenges.png)
+![alt text](https://github.com/vectormars/Hackerrank/blob/master/SQL/Basic%20Join/Submissions.png)
+
+
+### Example 5. Top Competitors
+Julia just finished conducting a coding contest, and she needs your help assembling the leaderboard! Write a query to print the respective hacker_id and name of hackers who achieved full scores for more than one challenge. Order your output in descending order by the total number of challenges in which the hacker earned a full score. If more than one hacker received full scores in same number of challenges, then sort them by ascending hacker_id.
