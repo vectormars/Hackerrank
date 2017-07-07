@@ -20,5 +20,15 @@ Query the average population of all cities in CITY where District is California.
 #### Select avg(population) from City
 #### where District = 'California'
 
-### Example 3: Revising Aggregations - Averages
+### Example 4: Average Population
 Query the average population for all cities in CITY, rounded down to the nearest integer.
+#### Select floor(Avg(population)) from City
+
+### Example 5: Japan Population
+Query the sum of the populations for all Japanese cities in CITY. The COUNTRYCODE for Japan is JPN.
+#### Select Sum(Population) from City
+#### where CountryCode = 'JPN'
+
+### Example 6: Population Density Difference
+Query the difference between the maximum and minimum populations in CITY.
+#### Select max(population)-min(population) from City
