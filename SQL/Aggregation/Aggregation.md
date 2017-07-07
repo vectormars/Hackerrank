@@ -37,4 +37,4 @@ Query the difference between the maximum and minimum populations in CITY.
 
 The Employee table is described as follows:
 
-![alt text](https://github.com/vectormars/Hackerrank/blob/master/SQL/Basic%20Select/Employee.png)
+![alt text](https://github.com/vectormars/Hackerrank/blob/master/SQL/Aggregation/employees.png)
