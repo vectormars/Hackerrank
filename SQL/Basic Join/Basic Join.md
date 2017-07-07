@@ -56,6 +56,7 @@ Write a query to help Eve.
 ## Input Format
 
 The Hackers, Difficulty, Challenges and Submissions tables are described as follows:
+
 ![alt text](https://github.com/vectormars/Hackerrank/blob/master/SQL/Basic%20Join/Hackers.png)
 ![alt text](https://github.com/vectormars/Hackerrank/blob/master/SQL/Basic%20Join/Difficulty.png)
 ![alt text](https://github.com/vectormars/Hackerrank/blob/master/SQL/Basic%20Join/Challenges.png)
