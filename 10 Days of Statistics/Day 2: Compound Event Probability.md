@@ -14,4 +14,4 @@ One ball is drawn from each of the 3 urns. What is the probability that, of the 
 | B | R | R | Case 3 |
 
 ##### Case 1:
-$$\frac{4}{7} \cdot \frac{5}{9} \cdot \frac{1}{2} = \frac{{10}}{{63}}$$
+\[\frac{4}{7} \cdot \frac{5}{9} \cdot \frac{1}{2} = \frac{{10}}{{63}}\]
