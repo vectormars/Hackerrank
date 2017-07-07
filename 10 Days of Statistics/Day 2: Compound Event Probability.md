@@ -15,3 +15,9 @@ One ball is drawn from each of the 3 urns. What is the probability that, of the 
 
 ##### Case 1:
 ![first equation](https://latex.codecogs.com/gif.latex?%5Cfrac%7B4%7D%7B7%7D%20%5Ccdot%20%5Cfrac%7B5%7D%7B9%7D%20%5Ccdot%20%5Cfrac%7B1%7D%7B2%7D%20%3D%20%5Cfrac%7B%7B10%7D%7D%7B%7B63%7D%7D)
+##### Case 2:
+![second equation](https://latex.codecogs.com/gif.latex?%5Cfrac%7B4%7D%7B7%7D%20%5Ccdot%20%5Cfrac%7B4%7D%7B9%7D%20%5Ccdot%20%5Cfrac%7B1%7D%7B2%7D%20%3D%20%5Cfrac%7B8%7D%7B%7B63%7D%7D)
+##### Case 3:
+![third equation](https://latex.codecogs.com/gif.latex?%5Cfrac%7B3%7D%7B7%7D%20%5Ccdot%20%5Cfrac%7B5%7D%7B9%7D%20%5Ccdot%20%5Cfrac%7B1%7D%7B2%7D%20%3D%20%5Cfrac%7B%7B15%7D%7D%7B%7B126%7D%7D)
+
+![fourth equation](https://latex.codecogs.com/gif.latex?%5Cfrac%7B%7B20%7D%7D%7B%7B126%7D%7D%20&plus;%20%5Cfrac%7B%7B16%7D%7D%7B%7B126%7D%7D%20&plus;%20%5Cfrac%7B%7B15%7D%7D%7B%7B126%7D%7D%20%3D%20%5Cfrac%7B%7B51%7D%7D%7B%7B126%7D%7D%20%3D%20%5Cfrac%7B%7B17%7D%7D%7B%7B42%7D%7D)
