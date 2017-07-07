@@ -14,4 +14,4 @@ One ball is drawn from each of the 3 urns. What is the probability that, of the 
 | B | R | R | Case 3 |
 
 ##### Case 1:
-![first equation][https://latex.codecogs.com/gif.latex?%5Cfrac%7B4%7D%7B7%7D%20%5Ccdot%20%5Cfrac%7B5%7D%7B9%7D%20%5Ccdot%20%5Cfrac%7B1%7D%7B2%7D%20%3D%20%5Cfrac%7B%7B10%7D%7D%7B%7B63%7D%7D]
+![first equation](https://latex.codecogs.com/gif.latex?%5Cfrac%7B4%7D%7B7%7D%20%5Ccdot%20%5Cfrac%7B5%7D%7B9%7D%20%5Ccdot%20%5Cfrac%7B1%7D%7B2%7D%20%3D%20%5Cfrac%7B%7B10%7D%7D%7B%7B63%7D%7D)
