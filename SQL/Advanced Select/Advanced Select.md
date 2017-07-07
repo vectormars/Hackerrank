@@ -81,5 +81,59 @@ where [occupation_count] is the number of occurrences of an occupation in OCCUPA
 #### Group by Occupation
 #### Order by count(Occupation),lower(Occupation);
 
+Output:
+
+Aamina(D) 
+
+Ashley(P) 
+
+Belvet(P) 
+
+Britney(P) 
+
+Christeen(S) 
+
+Eve(A) 
+
+Jane(S) 
+
+Jennifer(A) 
+
+Jenny(S) 
+
+Julia(D) 
+
+Ketty(A) 
+
+Kristeen(S) 
+
+Maria(P) 
+
+Meera(P) 
+
+Naomi(P) 
+
+Priya(D) 
+
+Priyanka(P) 
+
+Samantha(A) 
+
+There are a total of 3 doctors. 
+
+There are a total of 4 actors. 
+
+There are a total of 4 singers. 
+
+There are a total of 7 professors.
+
+
+### Example 3: The PADSOccupations
+
+Pivot the Occupation column in OCCUPATIONS so that each Name is sorted alphabetically and displayed underneath its corresponding Occupation. The output column headers should be Doctor, Professor, Singer, and Actor, respectively.
+
+
+
+
 
 
