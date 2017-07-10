@@ -96,3 +96,14 @@ Hermione decides the best way to choose is by determining the minimum number of 
 #### on W.code = WP.code 
 #### where WP.is_evil = 0 and W.coins_needed=(Select min(W1.coins_needed) from Wands as W1 join Wands_Property as WP1 on (W1.code = WP1.code) where W1.power = W.power and WP1.age = WP.age)
 #### order by W.power desc, WP.age desc
+
+## Input Format
+
+The Hackers and Challenges tables are described as follows:
+
+![alt text](https://github.com/vectormars/Hackerrank/blob/master/SQL/Basic%20Join/Hackers.png)
+![alt text](https://github.com/vectormars/Hackerrank/blob/master/SQL/Basic%20Join/Challenge.png)
+
+### Example 7. Challenges 
+
+Julia asked her students to create some coding challenges. Write a query to print the hacker_id, name, and the total number of challenges created by each student. Sort your results by the total number of challenges in descending order. If more than one student created the same number of challenges, then sort the result by hacker_id. If more than one student created the same number of challenges and the count is less than the maximum number of challenges created, then exclude those students from the result.
