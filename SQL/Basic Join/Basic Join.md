@@ -81,6 +81,7 @@ Julia just finished conducting a coding contest, and she needs your help assembl
 ## Input Format
 
 The Wands and Wands_Property tables are described as follows:
+
 ![alt text](https://github.com/vectormars/Hackerrank/blob/master/SQL/Basic%20Join/Wands.png)
 ![alt text](https://github.com/vectormars/Hackerrank/blob/master/SQL/Basic%20Join/Wands_Property.png)
 
