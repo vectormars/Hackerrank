@@ -65,3 +65,14 @@ The Hackers, Difficulty, Challenges and Submissions tables are described as foll
 
 ### Example 5. Top Competitors
 Julia just finished conducting a coding contest, and she needs your help assembling the leaderboard! Write a query to print the respective hacker_id and name of hackers who achieved full scores for more than one challenge. Order your output in descending order by the total number of challenges in which the hacker earned a full score. If more than one hacker received full scores in same number of challenges, then sort them by ascending hacker_id.
+#### Select H.hacker_id, H.name from Submissions S
+#### inner join Challenges C
+#### on S.challenge_id = C.challenge_id
+#### inner join Difficulty D
+#### on C.difficulty_level = D.difficulty_level 
+#### inner join Hackers H
+#### on S.hacker_id = H.hacker_id
+#### where S.score = D.score and C.difficulty_level = D.difficulty_level
+#### group by H.hacker_id, H.name
+#### having count(S.hacker_id) > 1
+#### order by count(S.hacker_id) desc, S.hacker_id asc
