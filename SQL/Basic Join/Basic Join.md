@@ -77,6 +77,12 @@ Julia just finished conducting a coding contest, and she needs your help assembl
 #### having count(S.hacker_id) > 1
 #### order by count(S.hacker_id) desc, S.hacker_id asc
 
+### Example 6. Contest Leaderboard
+
+You did such a great job helping Julia with her last coding contest challenge that she wants you to work on this one, too!
+
+The total score of a hacker is the sum of their maximum scores for all of the challenges. Write a query to print the hacker_id, name, and total score of the hackers ordered by the descending score. If more than one hacker achieved the same total score, then sort the result by ascending hacker_id. Exclude all hackers with a total score of  from your result.
+
 
 ## Input Format
 
@@ -85,7 +91,7 @@ The Wands and Wands_Property tables are described as follows:
 ![alt text](https://github.com/vectormars/Hackerrank/blob/master/SQL/Basic%20Join/Wands.png)
 ![alt text](https://github.com/vectormars/Hackerrank/blob/master/SQL/Basic%20Join/Wands_Property.png)
 
-### Example 6. Ollivander's Inventory
+### Example 7. Ollivander's Inventory
 
 Harry Potter and his friends are at Ollivander's with Ron, finally replacing Charlie's old broken wand.
 
@@ -104,6 +110,6 @@ The Hackers and Challenges tables are described as follows:
 ![alt text](https://github.com/vectormars/Hackerrank/blob/master/SQL/Basic%20Join/Hackers.png)
 ![alt text](https://github.com/vectormars/Hackerrank/blob/master/SQL/Basic%20Join/Challenge.png)
 
-### Example 7. Challenges 
+### Example 8. Challenges 
 
 Julia asked her students to create some coding challenges. Write a query to print the hacker_id, name, and the total number of challenges created by each student. Sort your results by the total number of challenges in descending order. If more than one student created the same number of challenges, then sort the result by hacker_id. If more than one student created the same number of challenges and the count is less than the maximum number of challenges created, then exclude those students from the result.
