@@ -76,3 +76,18 @@ Julia just finished conducting a coding contest, and she needs your help assembl
 #### group by H.hacker_id, H.name
 #### having count(S.hacker_id) > 1
 #### order by count(S.hacker_id) desc, S.hacker_id asc
+
+
+## Input Format
+
+The Wands and Wands_Property tables are described as follows:
+![alt text](https://github.com/vectormars/Hackerrank/blob/master/SQL/Basic%20Join/Wands.png)
+![alt text](https://github.com/vectormars/Hackerrank/blob/master/SQL/Basic%20Join/Wands_Property.png)
+
+### Example 6. Ollivander's Inventory
+
+Harry Potter and his friends are at Ollivander's with Ron, finally replacing Charlie's old broken wand.
+
+Hermione decides the best way to choose is by determining the minimum number of gold galleons needed to buy each non-evil wand of high power and age. Write a query to print the id, age, coins_needed, and power of the wands that Ron's interested in, sorted in order of descending power. If more than one wand has same power, sort the result in order of descending age.
+
+
