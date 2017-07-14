@@ -32,6 +32,6 @@ One ball is drawn from each urn. What is the probability that the 3 balls drawn 
 
 |   | 1 | 2 | 3 |
 |---|---|---|---|
-| 1 | R | R | B |
-| 2 | R | B | R |
-| 3 | B | R | R |
+|Urn 1 | R | R | B |
+|Urn 2 | R | B | R |
+|Urn 3 | B | R | R |
