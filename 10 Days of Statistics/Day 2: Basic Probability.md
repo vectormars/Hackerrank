@@ -27,4 +27,11 @@ There are 3 urns: X, Y and Z.
 * Urn X contains 4 red balls and 3 black balls.
 * Urn Y contains 5 red balls and 4 black balls.
 * Urn Z contains 4 red balls and 4 black balls.
+
 One ball is drawn from each urn. What is the probability that the 3 balls drawn consist of 2 red balls and 1 black ball?
+
+|   | 1 | 2 | 3 |
+|---|---|---|---|
+| 1 | R | R | B |
+| 2 | R | B | R |
+| 3 | B | R | R |
