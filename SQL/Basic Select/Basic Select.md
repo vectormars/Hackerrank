@@ -133,7 +133,7 @@ The Station table is described as follows:
 
 Query a list of CITY and STATE from the STATION table.
 
-#### select CIty,State from STATION 
+#### Select City, State from STATION 
 
 ### Example 8: Weather Observation Station 3
 
