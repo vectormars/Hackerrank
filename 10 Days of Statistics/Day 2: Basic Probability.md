@@ -35,3 +35,9 @@ One ball is drawn from each urn. What is the probability that the 3 balls drawn 
 |Urn 1 | R | R | B |
 |Urn 2 | R | B | R |
 |Urn 3 | B | R | R |
+
+Case 1: (4/7)(5/9)(4/8)=80/504      
+Case 2: (4/7)(4/9)(4/8)=64/504   
+Case 3: (3/7)(5/9)(4/8)=60/504    
+
+Pr= 204/504 = 17/42
