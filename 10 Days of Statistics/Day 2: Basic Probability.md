@@ -22,9 +22,9 @@ Condition for sum = 6
 Pr= 4/36 =1/9
 
 ### Task 3
-There are 3 urns: $X$, $Y$ and $Z$.
+There are 3 urns: X, Y and Z.
 
-* Urn $X$ contains 4 red balls and 3 black balls.
-* Urn $Y$ contains 5 red balls and 4 black balls.
-* Urn $Z$ contains 4 red balls and 4 black balls.
+* Urn X contains 4 red balls and 3 black balls.
+* Urn Y contains 5 red balls and 4 black balls.
+* Urn Z contains 4 red balls and 4 black balls.
 One ball is drawn from each urn. What is the probability that the 3 balls drawn consist of 2 red balls and 1 black ball?
