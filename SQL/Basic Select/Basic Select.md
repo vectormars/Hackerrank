@@ -250,3 +250,12 @@ Write a query that prints a list of employee names (i.e.: the name attribute) fo
 #### select name from Employee 
 #### where months < 10 and salary > 2000
 #### order by employee_id asc
+
+
+### Example 20: Show the name and the population for 'Sweden', 'Norway' and 'Denmark'.
+#### SELECT name, population FROM world
+#### WHERE name IN ('Sweden', 'Norway', 'Denmark')
+
+### Example 21: Which countries are not too small and not too big? BETWEEN allows range checking (range specified is inclusive of boundary values). The example below shows countries with an area of 250,000-300,000 sq. km. 
+#### SELECT name, area FROM world
+#### WHERE area BETWEEN 200000 AND 250000
