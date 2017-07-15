@@ -300,3 +300,11 @@ Find the country that has all the vowels and no spaces in its name
 #### name  LIKE '%u%' AND 
 #### name NOT LIKE '% %'
 
+| LIKE Operator                     | Description                                                                   |
+|-----------------------------------|-------------------------------------------------------------------------------|
+| WHERE CustomerName LIKE 'a%'      | Finds any values that starts with "a"                                         |
+| WHERE CustomerName LIKE '%a'      | Finds any values that ends with "a"                                           |
+| WHERE CustomerName LIKE '%or%'    | Finds any values that have "or" in any position                               |
+| WHERE CustomerName LIKE '\_r%'     | Finds any values that have "r" in the second position                         |
+| WHERE CustomerName LIKE 'a\_%\_%'   | Finds any values that starts with "a" and are at least 3 characters in length |
+| WHEREWHERE ContactName LIKE 'a%o' | Finds any values that starts with "a" and ends with "o"                       |
