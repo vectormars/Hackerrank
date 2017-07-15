@@ -252,10 +252,42 @@ Write a query that prints a list of employee names (i.e.: the name attribute) fo
 #### order by employee_id asc
 
 
-### Example 20: Show the name and the population for 'Sweden', 'Norway' and 'Denmark'.
+### Example 20: 
+Show the name and the population for 'Sweden', 'Norway' and 'Denmark'.
 #### SELECT name, population FROM world
 #### WHERE name IN ('Sweden', 'Norway', 'Denmark')
 
-### Example 21: Which countries are not too small and not too big? BETWEEN allows range checking (range specified is inclusive of boundary values). The example below shows countries with an area of 250,000-300,000 sq. km. 
+### Example 21: 
+Which countries are not too small and not too big? BETWEEN allows range checking (range specified is inclusive of boundary values). The example below shows countries with an area of 250,000-300,000 sq. km. 
 #### SELECT name, area FROM world
 #### WHERE area BETWEEN 200000 AND 250000
+
+
+### Example 22: 
+Show the countries which have a name that includes the word 'United'
+#### Select name from world
+#### where name regexp 'United'
+
+### Example 23: 
+Exclusive OR (**XOR**). Show the countries that are big by area or big by population but not both. Show name, population and area.
+(Either one of, but not both)
+#### Select name,population,area from world
+#### where population>250000000 xor area >3000000
+
+### Example 23: 
+Show the name and per-capita GDP for those countries with a GDP of at least one trillion (1000000000000; that is 12 zeros). Round this value to the **nearest 1000**.
+#### Select name, round((gdp/population),-3) from world
+#### where GDP > 1000000000000
+
+### Example 24
+The capital of Sweden is Stockholm. Both words start with the letter 'S'.
+
+Show the name and the capital where the first letters of each match. Don't include countries where the name and the capital are the same word.
+
+#### SELECT name, capital FROM world
+#### where LEFT(name,1)=LEFT(capital ,1) and name <> capital 
+
+
+
+
+
