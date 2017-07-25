@@ -47,8 +47,12 @@ Bag 1 contains 4 red balls and 5 black balls.
 Bag 2 contains 3 red balls and 7 black balls. 
 
 One ball is drawn from the Bag 1, and 2 balls are drawn from Bag 2. Find the probability that 2 balls are black and 1 ball is red.
-|   |bag 1 |bag 2|
+|   |bag 1 |bag 2 |bag 3 |
 |---|---|---|---|
-|Urn 1 | R | R | B |
-|Urn 2 | R | B | R |
-|Urn 3 | B | R | R |
+|Case 1 | B | B | R |
+|Case 2 | B | R | B |
+|Case 3 | R | B | B |
+
+Pr1 = (5/9)((3*7)/(10*9))
+Pr2 = (5/9)((3*2)/(10*9))
+Pr3 = (4/9)((7*6)/(10*9))
