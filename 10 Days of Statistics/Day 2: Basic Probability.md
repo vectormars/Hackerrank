@@ -47,6 +47,7 @@ Bag 1 contains 4 red balls and 5 black balls.
 Bag 2 contains 3 red balls and 7 black balls. 
 
 One ball is drawn from the Bag 1, and 2 balls are drawn from Bag 2. Find the probability that 2 balls are black and 1 ball is red.
+
 |        | bag1 | bag2 | bag2 |
 |--------|------|------|------|
 | case 1 | B    | B    | R    |
