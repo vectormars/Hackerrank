@@ -41,3 +41,14 @@ Case 2: (4/7)(4/9)(4/8)=64/504
 Case 3: (3/7)(5/9)(4/8)=60/504    
 
 Pr= 204/504 = 17/42
+
+### Task 4
+Bag 1 contains 4 red balls and 5 black balls.        
+Bag 2 contains 3 red balls and 7 black balls. 
+
+One ball is drawn from the Bag 1, and 2 balls are drawn from Bag 2. Find the probability that 2 balls are black and 1 ball is red.
+|   |bag 1 |bag 2|
+|---|---|---|---|
+|Urn 1 | R | R | B |
+|Urn 2 | R | B | R |
+|Urn 3 | B | R | R |
