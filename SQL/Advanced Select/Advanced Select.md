@@ -193,9 +193,7 @@ The Nobel table is described as follows:
 Find the year when neither a Physics or Chemistry award was given
 
 #### SELECT yr FROM nobel
-####  WHERE yr NOT IN(SELECT yr 
-####                    FROM nobel
-####                  WHERE subject IN ('Chemistry','Physics'))
+####  WHERE yr NOT IN(SELECT yr FROM nobel WHERE subject IN ('Chemistry','Physics'))
 
 
 ### Example 6: Nobel prize 2
@@ -204,7 +202,5 @@ Find the years when a Medicine award was given but no Peace or Literature award 
 #### SELECT DISTINCT yr
 ####   FROM nobel
 ####  WHERE subject='Medicine' 
-####    AND yr NOT IN(SELECT yr FROM nobel 
-####                   WHERE subject='Literature')
-####    AND yr NOT IN (SELECT yr FROM nobel
-####                    WHERE subject='Peace')
+####    AND yr NOT IN(SELECT yr FROM nobel WHERE subject='Literature')
+####    AND yr NOT IN (SELECT yr FROM nobel WHERE subject='Peace')
