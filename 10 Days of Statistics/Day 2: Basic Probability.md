@@ -59,3 +59,11 @@ Pr2 = (5/9)((3\*7)/(10\*9))
 Pr3 = (4/9)((7\*6)/(10\*9))   
 
 Pr = 7/15
+
+### Task 5
+There are 10 people about to sit down around a round table. Find the probability that  particular people will sit next to one another.
+
+Pr = 2/9
+
+### Task 6
+Bag X contains 5 white balls and 4 black balls. Bag Y contains 7 white balls and 6 black balls. You draw 1 ball from bag X and, without observing its color, put it into bag Y. Now, if a ball is drawn from bag Y, find the probability that it is black.
