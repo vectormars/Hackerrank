@@ -188,7 +188,7 @@ The Nobel table is described as follows:
 | 1960 | Peace      | Albert Lutuli               |
 | ...  | ...        | ...                         |
 
-### Example 5: Binary Tree Nodes
+### Example 5: Nobel prize 1
 
 Find the year when neither a Physics or Chemistry award was given
 
@@ -198,3 +198,13 @@ Find the year when neither a Physics or Chemistry award was given
 ####                  WHERE subject IN ('Chemistry','Physics'))
 
 
+### Example 6: Nobel prize 2
+
+Find the years when a Medicine award was given but no Peace or Literature award was
+#### SELECT DISTINCT yr
+####   FROM nobel
+####  WHERE subject='Medicine' 
+####    AND yr NOT IN(SELECT yr FROM nobel 
+####                   WHERE subject='Literature')
+####    AND yr NOT IN (SELECT yr FROM nobel
+####                    WHERE subject='Peace')
