@@ -67,3 +67,13 @@ Pr = 2/9
 
 ### Task 6
 Bag X contains 5 white balls and 4 black balls. Bag Y contains 7 white balls and 6 black balls. You draw 1 ball from bag X and, without observing its color, put it into bag Y. Now, if a ball is drawn from bag Y, find the probability that it is black.
+
+|   | W | B |
+|---|---|---|
+| X | 5 | 4 |
+| Y | 7 | 6 |
+
+Case 1: White from X (5/9)(6/14)  
+Case 2: Black from X (4/9)(7/14)  
+
+Pr=29/63
