@@ -174,5 +174,20 @@ Write a query to find the node type of Binary Tree ordered by the value of the n
 
 
 
+## Input Format
+
+The Nobel table is described as follows:
+
+| yr   | subject    | winner                      |
+|------|------------|-----------------------------|
+| 1960 | Chemistry  | Willard F. Libby            |
+| 1960 | Literature | Saint-John Perse            |
+| 1960 | Medicine   | Sir Frank Macfarlane Burnet |
+| 1960 | Medicine   | Peter Medawar               |
+| 1960 | Physics    | Donald A. Glaser            |
+| 1960 | Peace      | Albert Lutuli               |
+| ...  | ...        | ...                         |
+
+
 
 
