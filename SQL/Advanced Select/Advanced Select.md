@@ -204,3 +204,46 @@ Find the years when a Medicine award was given but no Peace or Literature award 
 ####  WHERE subject='Medicine' 
 ####    AND yr NOT IN(SELECT yr FROM nobel WHERE subject='Literature')
 ####    AND yr NOT IN (SELECT yr FROM nobel WHERE subject='Peace')
+
+## Input Format
+
+The World table is described as follows:
+
+| name        | continent | area    | population | gdp          |
+|-------------|-----------|---------|------------|--------------|
+| Afghanistan | Asia      | 652230  | 25500100   | 20343000000  |
+| Albania     | Europe    | 28748   | 2831741    | 12960000000  |
+| Algeria     | Africa    | 2381741 | 37100000   | 188681000000 |
+| Andorra     | Europe    | 468     | 78115      | 3712000000   |
+| Angola      | Africa    | 1246700 | 20609294   | 100990000000 |
+| ...         | ...       | ...     | ...        | ...          |
+
+### Example 7: World 1
+List each country name where the population is larger than that of 'Russia'.
+####    SELECT name FROM world
+####      WHERE population > (SELECT population FROM world WHERE name='Russia')
+
+### Example 8: World 2
+Show the countries in Europe with a per capita GDP greater than 'United Kingdom'.
+####    Select name From world
+####    where gdp/population > (Select gdp/population From world Where name='United Kingdom') and continent='Europe'
+
+### Example 9: World 3
+List the name and continent of countries in the continents containing either Argentina or Australia. Order by name of the country.
+####    SELECT name, continent FROM world 
+####    WHERE continent IN (SELECT continent FROM world WHERE name IN ('Argentina', 'Australia')) 
+####    ORDER BY name
+
+### Example 10: World 4
+Which country has a population that is more than Canada but less than Poland? Show the name and the population.
+####    Select name,population From world
+####    where population >
+####    (select population from world where name='Canada') 
+####    and population <
+####    (select population from world where name='Poland')
+
+### Example 11: World 5
+Germany (population 80 million) has the largest population of the countries in Europe. Austria (population 8.5 million) has 11% of the population of Germany.
+
+Show the name and the population of each country in Europe. Show the population as a percentage of the population of Germany.
+
