@@ -188,6 +188,13 @@ The Nobel table is described as follows:
 | 1960 | Peace      | Albert Lutuli               |
 | ...  | ...        | ...                         |
 
+### Example 5: Binary Tree Nodes
 
+Find the year when neither a Physics or Chemistry award was given
+
+#### SELECT yr FROM nobel
+####  WHERE yr NOT IN(SELECT yr 
+####                    FROM nobel
+####                  WHERE subject IN ('Chemistry','Physics'))
 
 
