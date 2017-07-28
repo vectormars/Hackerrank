@@ -261,3 +261,21 @@ Find the largest country (by area) in each continent, show the continent, the na
 #### SELECT continent, name, area FROM world x
 ####   WHERE area>= ALL(SELECT max(area) FROM world y WHERE y.continent=x.continent)
 
+### Example 13: World 8
+List each continent and the name of the country that comes first alphabetically.
+#### SELECT continent, name FROM world x 
+#### WHERE name <= ALL(SELECT name FROM world y WHERE x.continent = y.continent)
+
+### Example 14: World 9
+Find the continents where all countries have a population <= 25000000. Then find the names of the countries associated with these continents. Show name, continent and population.
+
+#### SELECT name, continent, population FROM world 
+#### WHERE continent IN (SELECT continent FROM world  x WHERE 25000000 >= (SELECT MAX(population) FROM world y WHERE x.continent = y.continent))
+
+
+
+
+
+
+
+
