@@ -93,8 +93,15 @@ P(A)=5/35, P(B)=10/35, P(C)=20/35
 P(A|D)=P(D|A)P(A)/P(D) with P(D)=P(D|A)P(A)+P(D|B)P(B)+P(D|C)P(C) = 5/61
 
 
+### Task 8
+In a certain city, the probability of a resident not reading the morning newspaper is 1/2, and the probability of a resident not reading the evening newspaper is 2/5. The probability they will read both newspapers is 1/5.
 
+Find the probability that a resident reads a morning or evening newspaper.
 
+P(not M)=1/2, P(M)=1/2     
+P(not E)=2/5, P(E)=3/5      
+P(M and E)=1/5    
+P(M or E)=1/2+3/5-1/5=9/10
 
 
 
