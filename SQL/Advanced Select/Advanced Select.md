@@ -274,8 +274,13 @@ Find the continents where all countries have a population <= 25000000. Then find
 #### (SELECT continent FROM world  x WHERE 25000000 >= (SELECT MAX(population) FROM world y WHERE x.continent = y.continent))
 
 
-
-
+### Example 15: World 10
+#### SELECT a.name, a.continent FROM world AS a
+#### 	WHERE a.population/3 > ALL(
+#### 		SELECT b.population FROM world AS b
+#### 			WHERE a.continent = b.continent AND
+#### 			a.name <> b.name
+#### 	)
 
 
 
