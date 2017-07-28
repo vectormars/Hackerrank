@@ -77,3 +77,27 @@ Case 1: White from X (5/9)(6/14)
 Case 2: Black from X (4/9)(7/14)  
 
 Pr=29/63
+
+
+### Task 7
+A firm produces steel pipes in three plants.
+
+* Plant A produces 500 units per day and has a fraction defective output of 0.005.
+* Plant B produces 1000 units per day and has a fraction defective output of 0.008.
+* Plant C produces 2000 units per day and has a fraction defective output of 0.010.
+
+At random, a pipe is selected from the day’s total production and it is found to be defective. What is the probability that it came from plant A?
+
+P(D|A)=0.005, P(D|B)=0.008, P(D|C)=0.010   
+P(A)=5/35, P(B)=10/35, P(C)=20/35      
+P(A|D)=P(D|A)P(A)/P(D) with P(D)=P(D|A)P(A)+P(D|B)P(B)+P(D|C)P(C) = 5/61
+
+
+
+
+
+
+
+
+
+
