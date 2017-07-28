@@ -105,6 +105,9 @@ P(M or E)=1/2+3/5-1/5=9/10
 
 
 
+### Task 9
+A candidate is selected for interview of management trainees for 3 companies. For the first company, there are 12 candidates, for the second there are 15 candidates and for the third, there are 10 candidates. Find the probability that he is selected in at least one of the companies. Assume that 1 candidate will be selected in each of the interviews, and all candidates appearing for the interview have an equal probability of getting selected.
 
-
+P(not First)=11/12, P(not Second)=14/15, P(not Third)=9/10          
+P(at least one)=1-(11/12)(14/15)(9/10)=1-77/100=23/100
 
