@@ -249,3 +249,15 @@ Show the name and the population of each country in Europe. Show the population 
 
 #### Select name,concat(round(population/(Select population from world where name='Germany')\*100),'%') from world
 #### where continent='Europe'
+
+### Example 12: World 6
+Which countries have a GDP greater than every country in Europe?
+
+#### Select name from world
+#### where GDP >(Select max(GDP) from world where continent='Europe')
+
+### Example 13: World 7
+Find the largest country (by area) in each continent, show the continent, the name and the area:
+#### SELECT continent, name, area FROM world x
+####   WHERE area>= ALL(SELECT max(area) FROM world y WHERE y.continent=x.continent)
+
