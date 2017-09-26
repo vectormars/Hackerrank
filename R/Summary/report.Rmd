@@ -1,0 +1,203 @@
+---
+title: "Summary report"
+author: "BioPham Tool"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: word_document
+
+params:
+ Drug_FDA: NA
+ Therapeutic_Equivalents: NA
+ Orange_book: NA
+ Exclusivity_date_from_Orange_book: NA
+ FDA_Dissolution_Database: NA
+ USP_Dissolution_Database: NA
+ Drug_bank_Pharmacological_properties: NA
+ Drug_bank_PK_properties: NA
+ Mean_dissolution_plot: NA
+ F2_Comparison: NA
+ Dissolution_plots: NA
+ MVA: NA
+ Bootstrapping: NA
+ Mean: NA
+ CV: NA
+ Simulated_results: NA
+ Pass_rate: NA
+ 
+---
+
+
+
+```{r 000, message=FALSE,echo=FALSE,warning=FALSE}
+library(ggplot2)
+library(reshape2)
+library(XLConnect)
+library(plyr)
+library(knitr)
+```
+
+
+```{r 001,echo=FALSE}
+if(!is.null(params$Drug_FDA)){
+  cat("Drug@FDA")}
+  kable(params$Drug_FDA,padding=0,row.names=FALSE)
+```
+
+\newline
+
+\newline
+```{r 002,echo=FALSE}
+if(!is.null(params$Therapeutic_Equivalents)){
+  cat("Therapeutic Equivalents")
+  kable(params$Therapeutic_Equivalents,row.names=FALSE)
+}
+```
+
+
+\newline
+
+\newline
+```{r 003,echo=FALSE}
+if(!is.null(params$Orange_book)){
+  cat("Orange Book")}
+  kable(params$Orange_book,row.names=FALSE)
+```
+
+\newline
+
+\newline
+```{r 004,echo=FALSE}
+if(!is.null(params$Exclusivity_date_from_Orange_book)){
+  cat("Exclusivity date from Orange book")}
+  kable(params$Exclusivity_date_from_Orange_book,row.names=FALSE)
+```
+
+\newline
+
+\newline
+```{r 005,echo=FALSE}
+if(!is.null(params$FDA_Dissolution_Database)){
+  cat("FDA Dissolution Database")}
+  kable(params$FDA_Dissolution_Database,row.names=FALSE)
+```
+
+\newline
+
+\newline
+```{r 006,echo=FALSE}
+if(!is.null(params$USP_Dissolution_Database)){
+  cat("USP Dissolution Database")}
+  kable(params$USP_Dissolution_Database,row.names=FALSE)
+```
+
+\newline
+
+\newline
+```{r 016,echo=FALSE,warning=FALSE}
+if(!is.null(params$Drug_bank_Pharmacological_properties)){
+  cat("Drug bank_Pharmacological properties")
+ kable(params$Drug_bank_Pharmacological_properties)
+}
+
+```
+
+\newline
+
+\newline
+```{r 017,echo=FALSE,warning=FALSE}
+if(!is.null(params$Drug_bank_PK_properties)){
+  cat("Drug bank_PK properties")
+  kable(params$Drug_bank_PK_properties)
+}
+
+```
+
+\newline
+
+\newline
+```{r 007,echo=FALSE,warning=FALSE,fig.width=12}
+if(!is.null(params$Mean_dissolution_plot)){
+  cat("Mean dissolution plot")
+  params$Mean_dissolution_plot
+}
+
+```
+
+\newline
+
+\newline
+```{r 008,echo=FALSE}
+if(!is.null(params$F2_Comparison)){
+  cat("F2 Comparison")}
+  kable(params$F2_Comparison, digits = 2)
+```
+
+\newline
+
+\newline
+```{r 009,echo=FALSE,fig.width=12}
+if(!is.null(params$Dissolution_plots)){
+  cat("Dissolution plots")
+  params$Dissolution_plots
+}
+```
+
+\newline
+
+\newline
+```{r 010,echo=FALSE}
+if(!is.null(params$MVA)){
+  cat("MVA")}
+  kable(params$MVA, digits = 2)
+```
+
+\newline
+
+\newline
+```{r 011,echo=FALSE}
+if(!is.null(params$Bootstrapping)){
+  cat("Bootstrapping")}
+  kable(params$Bootstrapping)
+```
+
+\newline
+
+\newline
+```{r 012,echo=FALSE}
+if(!is.null(params$Mean)){
+  cat("Mean")
+  kable(params$Mean)
+}
+```
+
+\newline
+
+\newline
+```{r 013,echo=FALSE}
+if(!is.null(params$CV)){
+  cat("CV")
+  kable(params$CV)
+}
+```
+
+\newline
+
+\newline
+```{r 014,echo=FALSE,fig.width=12}
+if(!is.null(params$Simulated_results)){
+  cat("Simulated results")
+  params$Simulated_results
+}
+```
+
+\newline
+
+\newline
+```{r 015,echo=FALSE}
+if(!is.null(params$Pass_rate)){
+  cat("Pass rate")}
+  kable(params$Pass_rate)
+```
+
+
+
+
